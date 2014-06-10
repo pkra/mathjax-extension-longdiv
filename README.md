@@ -14,7 +14,7 @@ environments.
 
 # Usage:
 
-    \longdiv{numerator}{divisor}
+    \longdiv{dividend}{divisor}
 
 
 References:
@@ -31,7 +31,7 @@ Then add the extension to your configuration like any other third party extensio
 
      <script type="text/x-mathjax-config>
      MathJax.Hub.Config({
-       extensions: ["tex2jax.js","[Contrib]/everymath.js"],
+       extensions: ["tex2jax.js","[Contrib]/longdiv.js"],
        jax: ["input/TeX","output/HTML-CSS"],
        tex2jax: {inlineMath: [["$","$"],["\\(","\\)"]]},
        TeX: {extensions: ["AMSmath.js","AMSsymbols.js"]}

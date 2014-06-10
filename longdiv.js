@@ -7,7 +7,7 @@
  *
  *  Usage:
  *
- *      \longdiv{numerator}{divisor}
+ *      \longdiv{dividend}{divisor}
  *
  *  ---------------------------------------------------------------------
  *
