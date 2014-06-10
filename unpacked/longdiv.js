@@ -112,5 +112,5 @@ MathJax.Hub.Register.StartupHook("TeX enclose Ready", function () {
 });
 MathJax.Callback.Queue(
   ["Require",MathJax.Ajax,"[MathJax]/extensions/TeX/enclose.js"],
-  ["loadComplete",MathJax.Ajax,"[Contrib]/unpacked/longdiv.js"]
+  ["loadComplete",MathJax.Ajax,"[Contrib]/longdiv/unpacked/longdiv.js"]
 );

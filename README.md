@@ -5,12 +5,11 @@ MathJax TeX extension for long division notation.
 
 # Extension: longdiv for the MathJax third party repository
 
-A version of `longdiv.js` for the [MathJax third party extension repository](https://github.com/mathjax/MathJax-third-party-extensions), including a compressed version (using YUI, see the [MathJax-dev tools](https://github.com/mathjax/mathjax-dev)).
+A version of `longdiv.js` for the [MathJax third party extension repository](https://github.com/mathjax/MathJax-third-party-extensions), including a compressed version (see [MathJax-dev tools](https://github.com/mathjax/mathjax-dev)).
 
 # About longdiv
 
-Provides `\longdiv` macro to place tokens at beginning of all math
-environments.
+Provides `\longdiv` macro to render long-division notation.
 
 # Usage:
 
@@ -21,6 +20,7 @@ References:
 
 - longdiv : https://github.com/pkra/mathjax-extension-longdiv
 - MathJax: http://www.mathjax.org/
+- David Carlisle's original code: http://html5mathml.googlecode.com/svn/trunk/longdiv-mj-mml2.html
 
 
 ## Using the MathJax CDN {#CDN}
